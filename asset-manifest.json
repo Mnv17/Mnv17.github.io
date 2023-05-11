@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d19af6c.css",
-    "main.js": "/static/js/main.375077bc.js",
+    "main.css": "/static/css/main.b2af6c8b.css",
+    "main.js": "/static/js/main.570c6382.js",
     "static/media/P-1.png": "/static/media/P-1.0806dcce8f14a6eaeb56.png",
     "static/media/P-4.png": "/static/media/P-4.1b8a7b9c86bfb4c8aa39.png",
     "static/media/P-2.png": "/static/media/P-2.550c2cc244cc406b6355.png",
     "static/media/P-3.png": "/static/media/P-3.ae181a5406aa561470ab.png",
     "static/media/Professional_pic.png": "/static/media/Professional_pic.881744859f272094866d.png",
     "static/media/Manav-Verma-Resume.pdf": "/static/media/Manav-Verma-Resume.cc9e4af9787fcacb8da8.pdf",
-    "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/NodeJS.png": "/static/media/NodeJS.3f82842dd810bd4dc064.png",
     "static/media/html.png": "/static/media/html.eebc3fbfbde4b2abd9db.png",
     "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
@@ -20,11 +19,11 @@
     "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "static/media/JavaScript1.png": "/static/media/JavaScript1.afc2ed968d0851cb9370.png",
     "index.html": "/index.html",
-    "main.2d19af6c.css.map": "/static/css/main.2d19af6c.css.map",
-    "main.375077bc.js.map": "/static/js/main.375077bc.js.map"
+    "main.b2af6c8b.css.map": "/static/css/main.b2af6c8b.css.map",
+    "main.570c6382.js.map": "/static/js/main.570c6382.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d19af6c.css",
-    "static/js/main.375077bc.js"
+    "static/css/main.b2af6c8b.css",
+    "static/js/main.570c6382.js"
   ]
 }
