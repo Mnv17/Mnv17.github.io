@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2eb730ec.css",
+    "main.js": "/static/js/main.f63f5878.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/Manav-Verma-Resume.pdf": "/static/media/Manav-Verma-Resume.cef3c33498a86e50787a.pdf",
+    "static/media/Professional_pic-removebg-preview.png": "/static/media/Professional_pic-removebg-preview.881744859f272094866d.png",
+    "static/media/linkedin.png": "/static/media/linkedin.5d1ddeaf918afefc130c.png",
+    "static/media/address.png": "/static/media/address.448afbc6ea3fcbdd4e8b.png",
+    "static/media/github.png": "/static/media/github.fcf90be5a6dc8bbe13ed.png",
+    "static/media/gmail.png": "/static/media/gmail.16629f783c2dd68eb114.png",
+    "static/media/phone.png": "/static/media/phone.783a281611500d7c4dab.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.2eb730ec.css.map": "/static/css/main.2eb730ec.css.map",
+    "main.f63f5878.js.map": "/static/js/main.f63f5878.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2eb730ec.css",
+    "static/js/main.f63f5878.js"
+  ]
+}
