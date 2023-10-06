@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2eb730ec.css",
-    "main.js": "/static/js/main.705851c3.js",
+    "main.js": "/static/js/main.21b9ac94.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Manav-Verma-Resume.pdf": "/static/media/Manav-Verma-Resume.cef3c33498a86e50787a.pdf",
     "static/media/Professional_pic-removebg-preview.png": "/static/media/Professional_pic-removebg-preview.881744859f272094866d.png",
@@ -16,11 +16,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.2eb730ec.css.map": "/static/css/main.2eb730ec.css.map",
-    "main.705851c3.js.map": "/static/js/main.705851c3.js.map",
+    "main.21b9ac94.js.map": "/static/js/main.21b9ac94.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2eb730ec.css",
-    "static/js/main.705851c3.js"
+    "static/js/main.21b9ac94.js"
   ]
 }
