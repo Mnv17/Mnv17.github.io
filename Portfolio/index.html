@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/fav.png" />
+    <title>Manav Verma | Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <script src="https://kit.fontawesome.com/8609a682e1.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+
+    <!-- navigation bar -->
+    <nav class="navbar" id="nav-menu">
+        <div class="max-width">
+            <div class="logo"><a href="#"><span>M</span>anav <span>V</span>erma</a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn nav-link home">Home</a></li>
+                <li><a href="#about" class="menu-btn nav-link about">About</a></li>
+                <li><a href="#skills" class="menu-btn nav-link skills">Skills</a></li>
+                <li><a href="#tech-stacks" class="menu-btn nav-link">Tech Stacks</a></li>
+                <li><a href="#projects" class="menu-btn nav-link projects">Projects</a></li>
+                <li><a href="#contact" class="menu-btn nav-link contact">Contact</a></li>
+                <!-- update resume -->
+                <li>
+                    <button onclick="resume()" style="background: transparent; border: none;" id="resume-button-1">
+                        <a class="menu-btn nav-link resume" id="resume-link-1" style="margin-top:0px"
+                            href="./resume/Manav-Verma-Resume.pdf" target="_blank" download>
+                            Resume </a>
+                    </button>
+
+                </li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home1 section start -->
+    <section class="home1" id="home">
+        <div class="max-width">
+            <div class="home1-content">
+                <div class="text-1">Hello, My name is</div>
+                <div class="text-2" id="user-detail-name">Manav Verma</div>
+                <div class="text-3">And I'm a <span class="typing">Full-Stack Web Developer</span></div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="aboutmain about section" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="aboutmain-content">
+                <div class="column left">
+                    <div class="image_container">
+                        <img src="./images/Manav-Verma-PNG.png" alt="Profile Photo" class="home-img">
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Manav and I'm a <span class="typing-2">Full-Stack Web Developer</span></div>
+                    <p id="user-detail-intro">
+                        As a skilled Full Stack Web Developer, I am dedicated to creating innovative solutions that meet
+                        the needs of clients and users. With expertise in a range of programming languages. I am adept
+                        at building dynamic and engaging websites and applications. I am passionate about staying
+                        up-to-date with the latest trends and advancements in the technology industry and am committed
+                        to delivering high-quality work that exceeds expectations. Whether working independently or as
+                        part of a team, I am collaborative, detail-oriented, and focused on delivering excellence in
+                        every project I undertake.
+                    </p>
+
+                    <button onclick="resume()" id="resume-button-2">
+                        <a id="resume-link-2" style="margin-top:0px" href="./resume/Manav-Verma-Resume.pdf"
+                            target="_blank" download>
+                            Download Resume </a>
+                    </button>
+
+                    <script>
+                        function resume() {
+                            window.open("https://drive.google.com/file/d/13lI199Nlbljwkkebc9Up0xFIXS6gLpin/view", "_blank")
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="skills">
+        <div class="max-width">
+            <h2 class="title">Skills</h2>
+            <div class="serv-content">
+                <div class="card skills-card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush skills-card-img"></i>
+                        <div class="text skills-card-name">Web Design</div>
+                        <p>Proficient in providing web designs.</p>
+                    </div>
+                </div>
+
+                <div class="card skills-card">
+                    <div class="box">
+                        <i class="fas fa-chart-line skills-card-img"></i>
+                        <div class="text skills-card-name">REST API</div>
+                        <p>Providing exceptional Rest APIs.</p>
+                    </div>
+                </div>
+                <div class="card skills-card">
+                    <div class="box">
+                        <i class="fas fa-code skills-card-img"></i>
+                        <div class="text skills-card-name">UI/UX</div>
+                        <p>Knowledge of UX/UI design principles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="tech-stacks">
+        <div class="max-width">
+            <h2 class="title">Tech Stack</h2>
+            <div class="skills-content">
+                <div id="container">
+                    <div>
+                        <img src="./skill-logo/html-5.png" alt="">
+                        <p>HTML</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/css3.png" alt="">
+                        <p>CSS</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/bootstrap.png" alt="">
+                        <p>Bootstrap</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/javascript.png" alt="">
+                        <p>JavaScript</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/mongodb.png" alt="">
+                        <p>MongoDB</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/nodejs.png" alt="">
+                        <p>NodeJs</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/express.png" alt="">
+                        <p>Express</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/dsa.png" alt="">
+                        <p>DSA</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/vscode.png" alt="">
+                        <p>VS Code</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/git.png" alt="">
+                        <p>Git</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/github.png" alt="">
+                        <p>Github</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/netlify.png" alt="">
+                        <p>Netlify</p>
+                    </div>
+                    <div>
+                        <img src="./skill-logo/replit.png" alt="">
+                        <p>Replit</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- project section start -->
+    <section class="project" id="projects">
+        <div class="project-width">
+            <div>
+                <h2 class="title">Projects</h2>
+            </div>
+            <div class="projectcardsmain">
+                <!-- a -->
+                <div class="projectcards project-card">
+                    <div class="imageProject">
+                        <img src="./images/LYST.jpeg" alt="healHub" class="imagepro">
+                    </div>
+                    <div class="textProject">
+                        <div class="project-data">
+                            <h1 class="project-title">LST(Let's Style Together)</h1>
+                            <p class="project-description">What is LST ? It's a clone of LYST.com. LST is a fashion technology company, 
+                                and premium shopping app. For over 160 million annual shoppers, 
+                                we offer the most comprehensive range of products
+                            </p>
+                            <p><strong style="color:#a58724;">TechStack:</strong> JavaScript | HTML5 | CSS3 | NPM | Git
+                            </p>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://lets-style-togetherr.netlify.app/" class="project-deployed-link"
+                                target="blank"><button>Live</button></a>
+                            <a href="https://github.com/Mnv17/wandering-noise-6021" class="project-github-link"
+                                target="blank"><button>Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- b -->
+                <div class="projectcards project-card">
+                    <div class="imageProject">
+                        <img src="./images/foot-locker.jpeg" alt="Smart Buy" class="imagepro">
+                    </div>
+                    <div class="textProject">
+                        <div class="project-data">
+                            <h1 class="project-title">One-Destination</h1>
+                            <p class="project-description">It's a clone of Foot-Locker. One-Destination is an American retailer of 
+                                athletic footwear and sportswear. It is a multinational company, 
+                                which was founded in 1974. One-Destination has around 3,000 stores in
+                                 operation worldwide and it is headquartered in New York City, United States.
+                            </p>
+                            <p><strong style="color:#a58724;">TechStack:</strong> JavaScript | HTML5 | CSS3 | NPM | Git  
+                            </p>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://whimsical-bubblegum-a5144e.netlify.app/" class="project-deployed-link"
+                                target="blank"><button>Live</button></a>
+                            <a href="https://github.com/Mnv17/honest-boat-2230" class="project-github-link"
+                                target="blank"><button>Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- c -->
+                <div class="projectcards project-card">
+                    <div class="imageProject">
+                        <img src="./images/Rentomojo-1.jpeg" alt="Avatar" class="imagepro">
+                    </div>
+                    <div class="textProject">
+                        <div class="project-data">
+                            <h1 class="project-title">Furniture Home</h1>
+                            <p class="project-description">What is Furniture Home? It's a clone of rentomojo. We're an online rental company and we're 
+                                 here to offer you easy access to a smarter & better lifestyle. Our services let you rent
+                                lifestyle essentials like furniture, appliances and more at affordable prices.
+                            </p>
+                            <p><strong style="color:#a58724;">TechStack:</strong> HTML | CSS | React.Js | Netlify | Git | JsonServer
+                            </p>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://gilded-fudge-cb1c73.netlify.app/" class="project-deployed-link"
+                                target="blank"><button>Live</button></a>
+                            <a href="https://github.com/Mnv17/balmy-health-8092" class="project-github-link"
+                                target="blank"><button>Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- d -->
+                <div class="projectcards project-card">
+                    <div class="imageProject">
+                        <img src="./images/Behance.png" alt="Avatar" class="imagepro">
+                    </div>
+                    <div class="textProject">
+                        <div class="project-data">
+                            <h1 class="project-title">Busy Kids</h1>
+                            <p class="project-description">It's a clone of Behance.com. Busy Kids is a virtual bank for kids, 
+                                where you can teach them about the value of money in a safe environment.
+                                 Kids will learn how to budget, save up for goals and spend responsibly
+                                  using our cool easy-to-use app and website, while teachers have control 
+                                  over the students accounts and activities.
+                            </p>
+                            <p><strong style="color: #a58724;">TechStack:</strong> HTML | CSS | React.Js | Vercel | JsonServer | Git
+                            </p>
+                        </div>
+
+                        <div class="project-buttons">
+                            <a href="https://energized-baseball-7687.vercel.app/" class="project-deployed-link"
+                                target="blank"><button>Live</button></a>
+                            <a href="https://github.com/RoshanAAS/energized-baseball-7687" class="project-github-link"
+                                target="blank"><button>Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- e -->
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- github status -->
+    <section>
+        <div id="stats">
+            <h2 class="title">Github Stats</h2>
+            <div id="githubstatsflex">
+                <div id="statsimg">
+                    <img id="github-top-langs"
+                        src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mnv17&lans-count=4&show_icons=true&theme=gruvbox"
+                        alt="err">
+                </div>
+
+                <div id="statsimg1">
+                    <div id="statssecondcolumn">
+                        <img id="github-stats-card"
+                            src="https://github-readme-stats.vercel.app/api?username=Mnv17&show_icons=true&theme=gruvbox"
+                            alt="err">
+                        <img id="github-streak-stats"
+                            src="https://github-readme-streak-stats.herokuapp.com?user=Mnv17&show_icons=true&theme=gruvbox"
+                            alt="err">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="calendar">
+            <h2 style="color: black; font-family: Poppins, sans-serif; text-align: center;" class="title" class="calci">
+                Github
+                Calendar</h2>
+            <div class="react-activity-calendar calendar">
+                Loading the data just for you.
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#" name="submit-to-google-sheet">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" name="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" name="Email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" name="Subject" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" name="Message" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Ready to take your project to the next level? Let's team up and leverage my skills as a Full
+                        Stack Web Developer to create something truly innovative and impactful.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <a href="#"> <i class="fas fa-envelope"></i> </a>
+                            <div class="info">
+                                <div class="head"></div>
+                                <div class="sub-title"> <a href="#" id="contact-email"> maanavverma0@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="https://www.linkedin.com/in/manav-verma-414927188" target="_blank"> <i
+                                    class="fab fa-linkedin"></i> </a>
+                            <div class="info">
+                                <div class="sub-titles"> <a href="https://www.linkedin.com/in/manav-verma-414927188"
+                                        id="contact-linkedin" target="_blank">Manav Verma</a> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <a href="https://github.com/Mnv17" id="contact-github" target="_blank"> <i
+                                    class="fab fa-github"></i>
+                            </a>
+                            <div class="info">
+                                <div class="sub-title"> <a href="https://github.com/Mnv17" id="contact-phone"
+                                        target="_blank">Mnv17</a> </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <a href="#" id="contact-phone" target="_blank"><i class="fa-solid fa-phone"></i>
+                            </a>
+                            <div class="info">
+                                <div class="sub-title"> <a href="#" id="contact-phone" target="_blank">+91
+                                        8349331307</a> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made by maanavverma0@gmail.com</p>
+    </footer>
+    <script src="script.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzcYogx84mtYKOTGtJeqEip1yUFvnpfn34uBMIrecYs3gtRKD0m_sMHPK7ABlDEu6cx/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            msg.innerHTML = "Sending Message";
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(() => {
+                        msg.innerHTML = "";
+                    }, 3000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+
+    </script>
+</body>
+
+</html>
