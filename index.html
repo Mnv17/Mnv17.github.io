@@ -357,7 +357,7 @@
             <div class="contact-content">
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#" name="submit-to-google-sheet">
+                    <form action="https://formspree.io/f/myyqrzqa" method="POST" name="submit-to-google-sheet">
                         <div class="fields">
                             <div class="field name">
                                 <input type="text" placeholder="Name" name="Name" required>
@@ -427,27 +427,6 @@
         <p>Made by maanavverma0@gmail.com</p>
     </footer>
     <script src="script.js"></script>
-
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzcYogx84mtYKOTGtJeqEip1yUFvnpfn34uBMIrecYs3gtRKD0m_sMHPK7ABlDEu6cx/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg");
-
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            msg.innerHTML = "Sending Message";
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => {
-                    msg.innerHTML = "Message sent successfully";
-                    setTimeout(() => {
-                        msg.innerHTML = "";
-                    }, 3000)
-                    form.reset();
-                })
-                .catch(error => console.error('Error!', error.message))
-        })
-
-    </script>
 </body>
 
 </html>
