@@ -190,11 +190,11 @@ section .title::after {
   right: 0;
   bottom: 0;
   left: 0;
-  background: url("./images/background-home.jpg") no-repeat center;
+  background: url("./images/background-Top.jpg") no-repeat center;
   background-color: #111;
   background-size: cover;
   background-attachment: fixed;
-  filter: blur(3px); 
+  filter: brightness(50%) blur(3.5px); 
   z-index: -1;
 }
 
@@ -226,7 +226,7 @@ section .title::after {
   margin: 5px 0;
 }
 .home1 .home1-content .text-3 span {
-  color: #E1BF4B;
+  color: #FECD87;
   font-weight: 500;
 }
 .home1 .home1-content a {
