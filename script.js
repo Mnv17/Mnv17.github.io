@@ -60,14 +60,14 @@ $(document).ready(function () {
 //change the file here
 document.getElementById("resume-button-1").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/13lI199Nlbljwkkebc9Up0xFIXS6gLpin/view",
+    "https://drive.google.com/file/d/1YJ7XvFVoXqKW4bhJxEeWlZ7Qif7JhZGA/view",
     `_blank`
   );
 };
 
 document.getElementById("resume-button-2").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/13lI199Nlbljwkkebc9Up0xFIXS6gLpin/view",
+    "https://drive.google.com/file/d/1YJ7XvFVoXqKW4bhJxEeWlZ7Qif7JhZGA/view",
     `_blank`
   );
 };
