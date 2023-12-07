@@ -1,3 +1,13 @@
+//submit button
+
+function submitForm() {
+  // Submit the form to Formspree
+  document.getElementById('contactForm').submit();
+
+  // Reset the form after submission
+  document.getElementById('contactForm').reset();
+}
+
 $(document).ready(function () {
   $(window).scroll(function () {
     // sticky navbar on scroll script
@@ -14,6 +24,10 @@ $(document).ready(function () {
       $(".scroll-up-btn").removeClass("show");
     }
   });
+
+
+  
+
 
   // slide-up script
   $(".scroll-up-btn").click(function () {
