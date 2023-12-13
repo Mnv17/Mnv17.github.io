@@ -369,6 +369,9 @@ section .title::after {
   font-size: 100%;
   font-weight: bold;
 }
+.react{
+  width: 5%;
+}
 
 /* project section styling */
 .project .title::after {
