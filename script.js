@@ -29,25 +29,20 @@ $(document).ready(function () {
   
 
 
-  // slide-up script
   $(".scroll-up-btn").click(function () {
     $("html").animate({ scrollTop: 0 });
-    // removing smooth scroll on slide-up button click
     $("html").css("scrollBehavior", "auto");
   });
 
   $(".navbar .menu li a").click(function () {
-    // applying again smooth scroll on menu items click
     $("html").css("scrollBehavior", "smooth");
   });
 
-  // toggle menu/navbar script
   $(".menu-btn").click(function () {
     $(".navbar .menu").toggleClass("active");
     $(".menu-btn i").toggleClass("active");
   });
 
-  // owl carousel script
   $(".carousel").owlCarousel({
     margin: 20,
     loop: true,
@@ -74,14 +69,14 @@ $(document).ready(function () {
 //change the file here
 document.getElementById("resume-button-1").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1ErZY0XayLFyHr0G2lNFByGsh4T1z0tsc/view",
+    "https://drive.google.com/file/d/1l-C9_XsXgAK7sBFIq1I9HjSsztridtRC/view",
     `_blank`
   );
 };
 
 document.getElementById("resume-button-2").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1ErZY0XayLFyHr0G2lNFByGsh4T1z0tsc/view",
+    "https://drive.google.com/file/d/1l-C9_XsXgAK7sBFIq1I9HjSsztridtRC/view",
     `_blank`
   );
 };
