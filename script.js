@@ -69,14 +69,14 @@ $(document).ready(function () {
 //change the file here
 document.getElementById("resume-button-1").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1l-C9_XsXgAK7sBFIq1I9HjSsztridtRC/view",
+    "https://drive.google.com/file/d/1TVuogxQ3w0y7aMmymDb1FPi7YmsoFNuC/view",
     `_blank`
   );
 };
 
 document.getElementById("resume-button-2").onclick = () => {
   window.open(
-    "https://drive.google.com/file/d/1l-C9_XsXgAK7sBFIq1I9HjSsztridtRC/view",
+    "https://drive.google.com/file/d/1TVuogxQ3w0y7aMmymDb1FPi7YmsoFNuC/view",
     `_blank`
   );
 };
